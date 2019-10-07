@@ -1,5 +1,10 @@
 body {
-  background-color: rgb(255, 204, 229);
+  background-color: rgb(245, 133, 255);
+}
+
+@font-face {
+  font-family: fredoka_one
+  src: url();
 }
 
 img {
@@ -18,10 +23,10 @@ li {
 }
 
 a {
-  font-family: sans-serif;
+  font-family: serif;
   display: block;
   padding: 8px;
-  background-color: rgb(196, 195, 208);
+  background-color: rgb(230, 161, 200);
 }
 
 li a {
@@ -40,6 +45,7 @@ h1 {
   color: rgb(135, 105, 83);
   font-family: fantasy;
   font-size: 500%;
+  justify-content: flex-start;
 }
 
 h2 {
@@ -50,6 +56,6 @@ h2 {
 
 p {
   color: black;
-  font-family: sans-serif;
+  font-family: serif;
   font-size: 1.25em;
 }
