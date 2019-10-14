@@ -1,15 +1,22 @@
 body {
-  background-color: rgb(245, 133, 255);
+  background-color: rgb(240, 161, 247);
 }
 
-@font-face {
-  font-family: fredoka_one
-  src: url();
+.sr-only {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 img {
   width: 50%;
   height: 50%;
+  border-radius: 50px;
+  border-color: rgb(92, 10, 10);
+  border-width: thick;
 }
 
 ul {
@@ -20,6 +27,11 @@ ul {
 
 li {
   float: left;
+}
+
+.clear{
+  float: none;
+  clear: both;
 }
 
 a {
@@ -45,7 +57,6 @@ h1 {
   color: rgb(135, 105, 83);
   font-family: fantasy;
   font-size: 500%;
-  justify-content: flex-start;
 }
 
 h2 {
