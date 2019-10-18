@@ -38,7 +38,7 @@ a {
   font-family: serif;
   display: block;
   padding: 8px;
-  background-color: rgb(230, 161, 200);
+  background-color: rgb(255, 170, 200);
 }
 
 li a {
@@ -50,7 +50,7 @@ li a {
 }
 
 li a:hover {
-  background-color: rgb(124, 75, 255);
+  background-color: rgb(162, 128, 255);
 }
 
 h1 {
