@@ -12,11 +12,31 @@ body {
 }
 
 img {
-  width: 50%;
-  height: 50%;
-  border-radius: 50px;
-  border-color: rgb(92, 10, 10);
-  border-width: thick;
+  width: 35%;
+  height: 35%;
+}
+
+.thick-img-border {
+    border-color: rgb(134, 19, 19);
+    border-width: 7.5px;
+    border-style: solid;
+    border-radius: 12.5%;
+  }
+
+.main-nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: capitalize;
+  font-family: serif;
 }
 
 ul {
