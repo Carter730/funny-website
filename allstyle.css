@@ -16,6 +16,11 @@ img {
   height: 35%;
 }
 
+.funny-carter-img {
+  height: 25%;
+  width: 25%;
+}
+
 .thick-img-border {
     border-color: rgb(134, 19, 19);
     border-width: 7.5px;
