@@ -21,6 +21,11 @@ main {
 
 aside {
   grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(255, 128, 172);
 }
 
 footer {
@@ -41,11 +46,6 @@ img {
   height: 35%;
 }
 
-.funny-carter-img {
-  height: 25%;
-  width: 25%;
-}
-
 .thick-img-border {
     border-color: rgb(134, 19, 19);
     border-width: 7.5px;
@@ -59,6 +59,7 @@ img {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  background-color: rgb(255, 170, 200);
 
 }
 
@@ -67,6 +68,7 @@ img {
   font-size: 2em;
   text-transform: capitalize;
   font-family: serif;
+  color: black
 }
 
 ul {
