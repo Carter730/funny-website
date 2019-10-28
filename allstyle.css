@@ -12,7 +12,6 @@ body {
 
 header {
   grid-area: header;
-  background: var(--secondary11);
 }
 
 main {
