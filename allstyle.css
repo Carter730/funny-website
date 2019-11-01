@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: 60% 1fr;
-  grid-template-rows: 80px 1fr 80px;
+  grid-template-rows: 80px 1fr 100px;
   grid-template-areas:
   "header header"
   "main aside"
@@ -26,15 +26,6 @@ aside {
   align-items: flex-start;
 }
 
-.carter_img {
-  grid-area: aside;
-  display: flex;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
 footer {
   grid-area: footer
 }
@@ -49,8 +40,8 @@ footer {
 }
 
 img {
-  width: 35%;
-  height: 35%;
+  width: 25vw;
+  height: 50vh;
 }
 
 .thick-img-border {
