@@ -24,7 +24,15 @@ aside {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: rgb(255, 128, 172);
+}
+
+.carter_img {
+  grid-area: aside;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 footer {
