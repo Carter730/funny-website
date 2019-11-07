@@ -139,6 +139,13 @@ p {
   font-size: 1.75em;
 }
 
+.mantra {
+  font-family: serif;
+  font-size: 1.75em;
+  color: black;
+  font-style: italic;
+}
+
 .aside-p {
   color: black;
   font-family: serif;
