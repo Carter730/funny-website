@@ -1,10 +1,35 @@
-body {
+.index-body {
+  display: grid;
+  grid-template-columns: 1fr 20%;
+  grid-template-rows: 80px 500px 100px;
+  grid-template-areas:
+  "header header"
+  "main aside"
+  "footer footer";
+  grid-gap: 30px;
+  background-color: rgb(241, 186, 247);
+}
+
+.main-body {
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  grid-template-rows: 80px 1fr 1fr 100px;
+  grid-template-areas:
+  "header header"
+  "main aside"
+  "main ."
+  "footer footer";
+  grid-gap: 30px;
+  background-color: rgb(241, 186, 247);
+}
+
+.author-body {
   display: grid;
   grid-template-columns: 60% 1fr;
   grid-template-rows: 80px 1fr 100px;
   grid-template-areas:
   "header header"
-  "main aside"
+  "main main"
   "footer footer";
   grid-gap: 30px;
   background-color: rgb(241, 186, 247);
@@ -26,6 +51,7 @@ main {
 }
 
 aside {
+
   grid-area: aside;
   display: flex;
   flex-direction: column;
@@ -38,6 +64,8 @@ aside {
   color: rgb(64, 48, 38);
   padding: 10px;
   box-shadow: 7.5px 7.5px;
+
+
 }
 
 footer {
@@ -78,8 +106,8 @@ img {
   text-decoration: none;
   font-size: 2em;
   text-transform: capitalize;
-  font-family: serif;
-  color: black
+  font-family: fantasy;
+  color: rgb(135, 105, 83);
 }
 
 .active {
@@ -136,6 +164,10 @@ p {
   color: black;
   font-family: serif;
   font-size: 1.75em;
+}
+
+.text-indent {
+  text-indent: 1em;
 }
 
 .mantra {
