@@ -1,7 +1,7 @@
 .index-body {
   display: grid;
   grid-template-columns: 1fr 20%;
-  grid-template-rows: 80px 500px 100px;
+  grid-template-rows: 115px 500px 100px;
   grid-template-areas:
   "header header"
   "main aside"
@@ -13,7 +13,7 @@
 .main-body {
   display: grid;
   grid-template-columns: 60% 1fr;
-  grid-template-rows: 80px 1fr 1fr 100px;
+  grid-template-rows: 115px 1fr 0fr 100px;
   grid-template-areas:
   "header header"
   "main aside"
@@ -23,10 +23,22 @@
   background-color: rgb(241, 186, 247);
 }
 
+.story-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 115px 1fr 100px;
+  grid-template-areas:
+  "header header"
+  "main aside"
+  "footer footer";
+  grid-gap: 30px;
+  background-color: rgb(241, 186, 247);
+}
+
 .author-body {
   display: grid;
   grid-template-columns: 60% 1fr;
-  grid-template-rows: 80px 1fr 100px;
+  grid-template-rows: 115px 1fr 100px;
   grid-template-areas:
   "header header"
   "main main"
@@ -81,9 +93,16 @@ footer {
   overflow: hidden;
 }
 
-img {
+.reg-img {
   width: 25vw;
-  height: 50vh;
+  height: 45vh;
+  float: right;
+}
+
+.author-img {
+  width: 25vw;
+  height: 75vh;
+  float: right;
 }
 
 .thick-img-border {
