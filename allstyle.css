@@ -1,7 +1,7 @@
 .index-body {
   display: grid;
   grid-template-columns: 1fr 20%;
-  grid-template-rows: 115px 500px 100px;
+  grid-template-rows: 190px 500px 100px;
   grid-template-areas:
   "header header"
   "main aside"
@@ -13,7 +13,7 @@
 .main-body {
   display: grid;
   grid-template-columns: 60% 1fr;
-  grid-template-rows: 115px 1fr 0fr 100px;
+  grid-template-rows: 190px 1fr 0fr 100px;
   grid-template-areas:
   "header header"
   "main aside"
@@ -26,7 +26,7 @@
 .story-body {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 115px 1fr 100px;
+  grid-template-rows: 190px 1fr 100px;
   grid-template-areas:
   "header header"
   "main aside"
@@ -37,11 +37,11 @@
 
 .author-body {
   display: grid;
-  grid-template-columns: 60% 1fr;
-  grid-template-rows: 115px 1fr 100px;
+  grid-template-columns: 75% 1fr;
+  grid-template-rows: 190px 1fr 100px;
   grid-template-areas:
   "header header"
-  "main main"
+  "main ."
   "footer footer";
   grid-gap: 30px;
   background-color: rgb(241, 186, 247);
@@ -96,11 +96,18 @@ footer {
 .reg-img {
   width: 25vw;
   height: 45vh;
+  float: right;
+}
+
+.story-img {
+  width: 25vw;
+  height: 45vh;
 }
 
 .author-img {
   width: 25vw;
   height: 75vh;
+  float: right;
 }
 
 .thick-img-border {
