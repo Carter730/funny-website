@@ -1,7 +1,7 @@
 .index-body {
   display: grid;
   grid-template-columns: 1fr 20%;
-  grid-template-rows: 190px 500px 100px;
+  grid-template-rows: 190px 1fr 100px;
   grid-template-areas:
   "header header"
   "main aside"
@@ -76,8 +76,6 @@ aside {
   color: rgb(64, 48, 38);
   padding: 10px;
   box-shadow: 7.5px 7.5px;
-
-
 }
 
 footer {
@@ -188,8 +186,6 @@ p {
   color: black;
   font-family: serif;
   font-size: 1.75em;
-  display: flex;
-  flex-grow: 1;
 }
 
 .text-indent {
