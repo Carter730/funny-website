@@ -188,6 +188,8 @@ p {
   color: black;
   font-family: serif;
   font-size: 1.75em;
+  display: flex;
+  flex-grow: 1;
 }
 
 .text-indent {
