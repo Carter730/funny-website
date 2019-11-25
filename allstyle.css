@@ -1,7 +1,7 @@
 .index-body {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 190px 500px 300px 100px;
+  grid-template-rows: 190px 50% 1fr 100px;
   grid-template-areas:
   "header"
   "main"
