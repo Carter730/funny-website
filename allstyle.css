@@ -1,11 +1,12 @@
 .index-body {
   display: grid;
-  grid-template-columns: 1fr 20%;
-  grid-template-rows: 190px 1fr 100px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 190px 500px 300px 100px;
   grid-template-areas:
-  "header header"
-  "main aside"
-  "footer footer";
+  "header"
+  "main"
+  "aside"
+  "footer";
   grid-gap: 30px;
   background-color: rgb(241, 186, 247);
 }
