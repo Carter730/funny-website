@@ -17,7 +17,7 @@
   grid-template-rows: 190px 1fr 0fr 100px;
   grid-template-areas:
   "header header"
-  "main ."
+  "main main"
   "aside ."
   "footer footer";
   grid-gap: 30px;
@@ -95,13 +95,12 @@ footer {
 .chicken-div {
   display: flex;
   justify-content: flex-end;
-  align-self: flex-end;
+  align-items: baseline;
 }
 
 .reg-img {
   width: 25vw;
   height: 45vh;
-  float: right;
 }
 
 .story-img {
