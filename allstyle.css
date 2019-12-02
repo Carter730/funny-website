@@ -17,8 +17,8 @@
   grid-template-rows: 190px 1fr 0fr 100px;
   grid-template-areas:
   "header header"
-  "main aside"
   "main ."
+  "aside ."
   "footer footer";
   grid-gap: 30px;
   background-color: rgb(241, 186, 247);
@@ -92,6 +92,12 @@ footer {
   overflow: hidden;
 }
 
+.chicken-div {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
 .reg-img {
   width: 25vw;
   height: 45vh;
@@ -106,7 +112,9 @@ footer {
 .author-img {
   width: 25vw;
   height: 75vh;
-  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
 }
 
 .thick-img-border {
