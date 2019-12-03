@@ -92,20 +92,42 @@ footer {
   overflow: hidden;
 }
 
-.chicken-div {
+.flex-section {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.chicken-div {
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
-  align-items: baseline;
+  align-items: center;
 }
 
 .reg-img {
-  width: 25vw;
+  width: 30vw;
   height: 45vh;
+}
+
+.story-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .story-img {
   width: 25vw;
   height: 45vh;
+}
+
+.judge-img {
+  width: 25vw;
+  height: 45vh;
+  float: right;
 }
 
 .author-img {
