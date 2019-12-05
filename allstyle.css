@@ -13,7 +13,7 @@
 
 .main-body {
   display: grid;
-  grid-template-columns: 60% 1fr;
+  grid-template-columns: 55% 1fr;
   grid-template-rows: 190px 1fr 0fr 100px;
   grid-template-areas:
   "header header"
@@ -108,8 +108,8 @@ footer {
 }
 
 .reg-img {
-  width: 30vw;
-  height: 45vh;
+  width: 40vw;
+  height: 50vh;
 }
 
 .story-div {
@@ -120,12 +120,12 @@ footer {
 }
 
 .story-img {
-  width: 25vw;
-  height: 45vh;
+  width: 40vw;
+  height: 55vh;
 }
 
 .judge-img {
-  width: 25vw;
+  width: 35vw;
   height: 45vh;
   float: right;
 }
