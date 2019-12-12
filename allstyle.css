@@ -1,3 +1,4 @@
+/* body css */
 .index-body {
   display: grid;
   grid-template-columns: 1fr;
@@ -47,14 +48,9 @@
   grid-gap: 30px;
   background-color: rgb(241, 186, 247);
 }
+/* body css */
 
-#main_shadow {
-  border: 3px solid;
-  color: rgb(64, 48, 38);
-  padding: 10px;
-  box-shadow: 10px 10px;
-}
-
+/* main parts of body  */
 header {
   grid-area: header;
 }
@@ -63,8 +59,12 @@ main {
   grid-area: main;
 }
 
-aside {
+footer {
+  grid-area: footer
+}
 
+
+aside {
   grid-area: aside;
   display: flex;
   flex-direction: column;
@@ -79,8 +79,11 @@ aside {
   box-shadow: 7.5px 7.5px;
 }
 
-footer {
-  grid-area: footer
+#main_shadow {
+  border: 3px solid;
+  color: rgb(64, 48, 38);
+  padding: 10px;
+  box-shadow: 10px 10px;
 }
 
 .sr-only {
@@ -92,6 +95,7 @@ footer {
   overflow: hidden;
 }
 
+/* movable sections, img descriptions and classes */
 .flex-section {
   display: flex;
   flex-direction: column;
@@ -100,10 +104,10 @@ footer {
 }
 
 .chicken-div {
-  align-self: flex-end;
+  align-self: flex-start;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -142,7 +146,9 @@ footer {
     border-style: solid;
     border-radius: 12.5%;
   }
+/* movable sections, img descriptions and classes */
 
+/* all navigation bar */
 .main-nav {
   height: 100%;
   display: flex;
@@ -197,7 +203,9 @@ li a {
 li a:hover {
   background-color: rgb(162, 128, 255);
 }
+/* all navigation bar */
 
+/* text spaces customization, some classes for text */
 h1 {
   color: rgb(64, 48, 38);
   font-family: fantasy;
@@ -226,3 +234,4 @@ p {
   color: black;
   font-style: italic;
 }
+/* text spaces customization, some classes for text */
